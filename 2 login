@@ -1,0 +1,89 @@
+<div class="div">
+  <div class="div-2">
+    <img
+      loading="lazy"
+      srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/a9f579fb09532316912a9d8dedbd85a35a512ab86d52dd9afc56c31932e00963?apiKey=ca3257d946c64714b1baca2e8eda1e7c&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9f579fb09532316912a9d8dedbd85a35a512ab86d52dd9afc56c31932e00963?apiKey=ca3257d946c64714b1baca2e8eda1e7c&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9f579fb09532316912a9d8dedbd85a35a512ab86d52dd9afc56c31932e00963?apiKey=ca3257d946c64714b1baca2e8eda1e7c&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9f579fb09532316912a9d8dedbd85a35a512ab86d52dd9afc56c31932e00963?apiKey=ca3257d946c64714b1baca2e8eda1e7c&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9f579fb09532316912a9d8dedbd85a35a512ab86d52dd9afc56c31932e00963?apiKey=ca3257d946c64714b1baca2e8eda1e7c&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9f579fb09532316912a9d8dedbd85a35a512ab86d52dd9afc56c31932e00963?apiKey=ca3257d946c64714b1baca2e8eda1e7c&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9f579fb09532316912a9d8dedbd85a35a512ab86d52dd9afc56c31932e00963?apiKey=ca3257d946c64714b1baca2e8eda1e7c&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9f579fb09532316912a9d8dedbd85a35a512ab86d52dd9afc56c31932e00963?apiKey=ca3257d946c64714b1baca2e8eda1e7c&"
+      class="img"
+    />
+    LIVE
+  </div>
+  <div class="div-4">
+    <div class="div-5">Phone Number</div>
+    <div class="div-6">Password</div>
+    <div class="div-7">Forgot password</div>
+    <div class="div-8">New to Arc’teryx Live?</div>
+  </div>
+</div>
+<style>
+  .div {
+    border-radius: 45px;
+    background-color: #fff;
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    padding-bottom: 75px;
+    flex-direction: column;
+    font-weight: 200;
+    line-height: 150%;
+    margin: 0 auto;
+  }
+  .div-2 {
+    disply: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    overflow: hidden;
+    aspect-ratio: 0.98;
+    width: 100%;
+    align-items: center;
+    color: #fff;
+    white-space: nowrap;
+    letter-spacing: -0.3px;
+    justify-content: center;
+    padding: 150px 60px 187px;
+    font: 16px Inter, sans-serif;
+  }
+  .img {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .div-3 {
+    position: relative;
+  }
+  .div-4 {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    font-size: 18px;
+    color: #121c21;
+    letter-spacing: -0.34px;
+    padding: 0 37px;
+  }
+  .div-5 {
+    color: #0c1518;
+    font-family: Inter, sans-serif;
+  }
+  .div-6 {
+    font-family: Inter, sans-serif;
+    margin-top: 78px;
+  }
+  .div-7 {
+    color: #2e421e;
+    letter-spacing: -0.27px;
+    text-decoration-line: underline;
+    align-self: end;
+    margin-top: 59px;
+    font: 500 14px Inter, sans-serif;
+  }
+  .div-8 {
+    letter-spacing: -0.3px;
+    text-decoration-line: underline;
+    align-self: start;
+    margin: 155px 0 0 14px;
+    font: 700 16px Inter, sans-serif;
+  }
+</style>
