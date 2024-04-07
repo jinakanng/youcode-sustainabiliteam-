@@ -1,0 +1,125 @@
+<div class="div">
+  <img
+    loading="lazy"
+    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b2667704fcfddb86eb53fa2f0f0a3672d89115112db9385e9c351fe4169448b3?apiKey=ca3257d946c64714b1baca2e8eda1e7c&"
+    class="img"
+  />
+  <div class="div-2">What activites are you interested in?</div>
+  <div class="div-3">Hike</div>
+  <div class="div-4">Ski / Snowboard</div>
+  <div class="div-5">Climb</div>
+  <div class="div-6">Run</div>
+  <div class="div-7">Cycle</div>
+  <div class="div-8">continue</div>
+</div>
+<style>
+  .div {
+    border-radius: 45px;
+    background-color: #fff;
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    flex-direction: column;
+    font-size: 18px;
+    color: #000;
+    font-weight: 200;
+    text-align: center;
+    line-height: 150%;
+    margin: 0 auto;
+    padding: 67px 18px;
+  }
+  .img {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 33px;
+  }
+  .div-2 {
+    margin-top: 32px;
+    font: 600 20px Inter, sans-serif;
+  }
+  .div-3 {
+    font-family: Inter, sans-serif;
+    border-radius: 2px;
+    border-color: rgba(0, 0, 0, 0.95);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    align-self: center;
+    margin-top: 32px;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 19px 60px;
+  }
+  .div-4 {
+    font-family: Inter, sans-serif;
+    border-radius: 2px;
+    border-color: rgba(0, 0, 0, 0.95);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    align-self: start;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 0 11px;
+    padding: 17px 60px;
+  }
+  .div-5 {
+    font-family: Inter, sans-serif;
+    border-radius: 2px;
+    border-color: rgba(0, 0, 0, 0.95);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    align-self: start;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+    margin: 10px 0 0 11px;
+    padding: 19px 60px;
+  }
+  .div-6 {
+    font-family: Inter, sans-serif;
+    border-radius: 2px;
+    border-color: rgba(0, 0, 0, 0.95);
+    border-style: solid;
+    border-width: 1px;
+    background-color: #fff;
+    align-self: center;
+    margin-top: 10px;
+    align-items: center;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 19px 60px;
+  }
+  .div-7 {
+    font-family: Inter, sans-serif;
+    border-radius: 2px;
+    border-color: rgba(0, 0, 0, 0.95);
+    border-style: solid;
+    border-width: 1px;
+    align-self: start;
+    align-items: center;
+    white-space: nowrap;
+    margin: 10px 0 0 11px;
+    padding: 20px 60px 13px;
+  }
+  .div-8 {
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #fff;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(4, 52, 95, 0.45);
+    align-self: center;
+    margin-top: 85px;
+    color: #fff;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    justify-content: center;
+    padding: 17px 60px;
+    font: 250 20px/50% Alegreya Sans SC, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+</style>
